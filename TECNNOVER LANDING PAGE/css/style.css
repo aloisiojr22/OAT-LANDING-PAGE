@@ -408,3 +408,18 @@ footer p {
     opacity: 1;
     transform: translateY(0);
 }
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .service-card, .team-member {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+}

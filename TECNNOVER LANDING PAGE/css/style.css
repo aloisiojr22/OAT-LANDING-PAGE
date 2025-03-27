@@ -409,19 +409,17 @@ footer p {
     transform: translateY(0);
 }
 @media (max-width: 768px) {
-    #home h1 {
-        font-size: 2rem; /* Diminui a fonte para telas menores */
-    }
-    .hero h1 {
-        font-size: 2rem; /* Diminui a fonte */
-    }
-    .service-card, .team-member {
-        width: 100%;
-        margin: 10px 0;
-    }
     nav ul {
         flex-direction: column;
         margin-left: 0;
     }
-    /* Outros ajustes responsivos conforme necessário */
+    
+    .service-card, .team-member {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
 }

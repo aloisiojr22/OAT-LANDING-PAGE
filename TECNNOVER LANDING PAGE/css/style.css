@@ -12,7 +12,7 @@ body {
     color: #333;
 }
 
-/* Cabeçalho */
+/* 🔥 Cabeçalho */
 header {
     background-color: #000;
     padding: 20px;
@@ -25,6 +25,7 @@ header .logo img {
     width: 40px;
 }
 
+/* ✅ Menu Centralizado */
 nav ul {
     display: flex;
     list-style: none;
@@ -43,7 +44,7 @@ nav a:hover {
     color: #eb1111;
 }
 
-/* Seção Home */
+/* 🔥 Seção Home */
 .hero {
     background-color: #000;
     color: #fff;
@@ -60,7 +61,7 @@ nav a:hover {
     font-size: 1.5rem;
 }
 
-/* Seção Serviços */
+/* 🔥 Seção Serviços */
 #servicos {
     background-color: #fff;
     padding: 50px 20px;
@@ -73,11 +74,11 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
-/* 🔥 Corrigindo Layout dos Serviços */
+/* 🔥 Layout dos Serviços */
 .services-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -88,7 +89,7 @@ nav a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     width: 30%;
-    min-width: 250px; /* Evita que fiquem muito pequenos */
+    min-width: 250px; 
 }
 
 .service-card:hover {
@@ -104,18 +105,18 @@ nav a:hover {
     cursor: pointer;
 }
 
-/* Seção Equipe */
+/* 🔥 Seção Equipe */
 #equipe {
     background-color: #f4f4f4;
     padding: 50px 20px;
     text-align: center;
 }
 
-/* 🔥 Corrigindo Layout da Equipe */
+/* 🔥 Layout da Equipe */
 .team-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -135,7 +136,7 @@ nav a:hover {
     border-radius: 50%;
 }
 
-/* Seção Contato */
+/* 🔥 Seção Contato */
 #contato {
     background-color: #000;
     color: #fff;
@@ -172,12 +173,12 @@ form input, form textarea {
     }
 
     .service-card, .team-member {
-        width: 48%; /* Dois por linha */
+        width: 48%;
     }
 }
 
 @media (max-width: 480px) {
     .service-card, .team-member {
-        width: 100%; /* Um por linha */
+        width: 100%;
     }
 }
